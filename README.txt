@@ -21,7 +21,7 @@ Test the accuracy of generated predicted labels against known labels using Accur
 
 java Accuracy predLabelFile testLabelFile
 
-Note that testLabelFile was not provided for this project so that the project could be graded by the professor. This submission recieved full credit for the assignment. If desired, use TestLogReg to predict labels for the trainingFeature file, then use Accuracy to test the predicted labels against the known labels. This resutlts in 99.62% accuracy. 
+Note that testLabelFile was not provided for this project so that the project could be graded by the professor. This submission recieved full credit for the assignment. If desired, use TestLogReg to predict labels for the trainingFeature file, then use Accuracy to test the predicted labels against the known labels. This results in 99.62% accuracy. 
 
 java TestLogReg modelFile trainingFeatureFile predLabelFile 785
 java Accuracy predLabelFile trainingLabelFile
